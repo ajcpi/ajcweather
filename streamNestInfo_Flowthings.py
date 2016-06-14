@@ -3,7 +3,7 @@ import nest
 import flowthings
 #from flowthings import API, Token, mem
 import time
-***REMOVED***
+import datetime
 import configparser
 
 config = configparser.ConfigParser()
@@ -28,12 +28,12 @@ nlogged = 0
 starttime = '%s' % (datetime.datetime.now(),)
 
 def drop(readings):
-    edict = {***REMOVED***
+    edict = {}
     for i in readings:
-        edict[str(i[0])] = { "type": "float", "value" : i[1]***REMOVED***
+        edict[str(i[0])] = { "type": "float", "value" : i[1]}
     drop = {
             "elems": edict
-            ***REMOVED***
+            }
             
     
 

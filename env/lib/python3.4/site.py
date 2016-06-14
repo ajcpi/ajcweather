@@ -22,7 +22,7 @@ appended to sys.path, and also inspected for path configuration files.
 FOR DEBIAN, this sys.path is augmented with directories in /usr/local.
 Local addons go into /usr/local/lib/python<version>/site-packages
 (resp. /usr/local/lib/site-python), Debian addons install into
-/usr/{lib,share***REMOVED***/python<version>/dist-packages.
+/usr/{lib,share}/python<version>/dist-packages.
 
 A path configuration file is a file whose name has the form
 <package>.pth; its contents are additional directories (one per line)
