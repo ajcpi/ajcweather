@@ -1,0 +1,9 @@
+[DEFAULT]
+
+[NEST]
+user: <username>
+password: <password>
+
+[FLOWTHINGS.ajcweather]
+account: <account>
+token: <write token for stream>
